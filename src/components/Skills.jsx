@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaPalette, FaCode, FaAndroid } from 'react-icons/fa';
+import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaPalette, FaCode, FaAndroid, FaVideo, FaFilm } from 'react-icons/fa';
 // import { SiAdobephotoshop, SiAdobeillustrator, SiAdobeindesign, SiCsharp, SiVisualstudiocode } from 'react-icons/si';
 import './Skills.css';
 
@@ -17,6 +17,8 @@ const Skills = () => {
         { name: 'C#', icon: <FaCode />, color: '#239120' }, // Replaced
         { name: 'Android Studio', icon: <FaAndroid />, color: '#3DDC84' },
         { name: 'VS Code', icon: <FaCode />, color: '#007ACC' }, // Replaced
+        { name: 'Video Editing', icon: <FaVideo />, color: '#FF0000' },
+        { name: '2D Animation', icon: <FaFilm />, color: '#FF9900' },
     ];
 
     return (
